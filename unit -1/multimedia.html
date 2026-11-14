@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyperlinks, Images, Audio, Video and Iframe</title>
+</head>
+
+<body>
+
+    <h1>HTML Multimedia Elements</h1>
+
+    <p>
+        HTML allows us to add hyperlinks, images, audio, videos, and embedded content to make web pages interactive and attractive.
+    </p>
+
+    <hr>
+
+    <!-- Hyperlink Example -->
+    <h2>1. Hyperlink</h2>
+
+    <p>
+        Click the link below to visit Google:
+    </p>
+
+    <a href="https://www.google.com" target="_blank">
+        Visit Google
+    </a>
+
+    <hr>
+
+    <!-- Image Example -->
+    <h2>2. Image</h2>
+
+    <p>Display an image using the <code>&lt;img&gt;</code> tag.</p>
+
+    <img src="cat.jpg"
+         alt="Cute Cat"
+         width="300"
+         height="200">
+
+    <hr>
+
+    <!-- Audio Example -->
+    <h2>3. Audio</h2>
+
+    <p>Play an audio file using the <code>&lt;audio&gt;</code> tag.</p>
+
+    <audio controls>
+        <source src="song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <hr>
+
+    <!-- Video Example -->
+    <h2>4. Video</h2>
+
+    <p>Play a video using the <code>&lt;video&gt;</code> tag.</p>
+
+    <video controls width="500">
+        <source src="movie.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <hr>
+
+    <!-- Iframe Example -->
+    <h2>5. Google Maps (Iframe)</h2>
+
+    <p>
+        The <code>&lt;iframe&gt;</code> tag is used to embed another webpage, such as Google Maps, YouTube videos, or websites.
+    </p>
+
+    <iframe
+        src="https://www.google.com/maps?q=Ahmedabad,Gujarat&output=embed"
+        width="600"
+        height="350"
+        style="border:1px solid black;"
+        loading="lazy">
+    </iframe>
+
+</body>
+
+</html>
